@@ -349,7 +349,7 @@ std::string UTF8toWindows1252(const char * in)
     if (in == NULL)
         return out;
 
-    unsigned int codepoint;
+    
 	// the spanish conversion table, but you can add more here if you like.
 	// use https://www.utf8-chartable.de/unicode-utf8-table.pl
 	std::string conv =  "áéíóúñÁÉÍÓÚÑ¿¡·°»¢";
